@@ -35,8 +35,7 @@ This project is a fully functional Mini CRM platform built for the Xeno SDE Inte
 
 [cite_start]Here is a high-level overview of the system architecture[cite: 90].
 
-![Project Screenshot](./frontend/public/system-architecture.png)
-``
+![Project Screenshot]([./frontend/public/system-architecture.png](https://github.com/NishantGit2004/Mini-CRM/blob/main/frontend/public/System-Architecture.png))
 
 The flow is as follows:
 1.  **Frontend (React/Next.js)** interacts with the Backend API.
