@@ -1,4 +1,4 @@
-# Xeno SDE Internship: Mini CRM Platform
+x# Xeno SDE Internship: Mini CRM Platform
 
 Submitted by: **Nishant Chopde**
 
@@ -35,7 +35,7 @@ This project is a fully functional Mini CRM platform built for the Xeno SDE Inte
 
 [cite_start]Here is a high-level overview of the system architecture[cite: 90].
 
-![Project Screenshot](./frontend/public/System Architecture.png)
+![Project Screenshot](./frontend/public/system-architecture.png)
 ``
 
 The flow is as follows:
