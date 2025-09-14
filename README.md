@@ -8,7 +8,7 @@ This project is a fully functional Mini CRM platform built for the Xeno SDE Inte
 
 ### 🚀 Live Demo & Video
 
-* [cite_start]**Deployed Application:** **(https://nishantchopde.me/)](https://nishantchopde.me/)** [cite: 82]
+* [cite_start]**Deployed Application:** **(https://nishantchopde.me/)]** [cite: 82]
 * [cite_start]**Demo Video (7 mins):** **[Link to your demo video on YouTube/Loom]** [cite: 83]
 
 ---
@@ -35,7 +35,7 @@ This project is a fully functional Mini CRM platform built for the Xeno SDE Inte
 
 [cite_start]Here is a high-level overview of the system architecture[cite: 90].
 
-*(Action: Insert your architecture diagram image here. This is a critical requirement!)*
+![Project Screenshot](./fronend/public/System Architecture.png)
 ``
 
 The flow is as follows:
