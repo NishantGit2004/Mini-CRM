@@ -8,7 +8,7 @@ This project is a fully functional Mini CRM platform built for the Xeno SDE Inte
 
 ### 🚀 Live Demo & Video
 
-* [cite_start]**Deployed Application:** **(https://nishantchopde.me/)](https://nishantchopde.me/)** [cite: 82]
+* [cite_start]**Deployed Application:** **(https://nishantchopde.me/)]** [cite: 82]
 * [cite_start]**Demo Video (7 mins):** **[Link to your demo video on YouTube/Loom]** [cite: 83]
 
 ---
@@ -35,7 +35,7 @@ This project is a fully functional Mini CRM platform built for the Xeno SDE Inte
 
 [cite_start]Here is a high-level overview of the system architecture[cite: 90].
 
-*(Action: Insert your architecture diagram image here. This is a critical requirement!)*
+![Project Screenshot](./frontend/public/System Architecture.png)
 ``
 
 The flow is as follows:
@@ -68,8 +68,8 @@ The flow is as follows:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [Your GitHub Repo URL]
-    cd [repository-name]
+    git clone [[Your GitHub Repo URL]](https://github.com/NishantGit2004/Mini-CRM.git)
+    cd Mini-CRM
     ```
 
 2.  **Setup Environment Variables:**
@@ -78,22 +78,22 @@ The flow is as follows:
 3.  **Install Dependencies:**
     ```bash
     # For the backend
-    cd server
+    cd backend
     npm install
 
     # For the frontend
-    cd ../client
+    cd ../frontend
     npm install
     ```
 
 4.  **Run the Application:**
     ```bash
     # Run the backend server
-    cd server
+    cd backend
     npm start
 
     # Run the frontend development server
-    cd ../client
+    cd ../frontend
     npm start
     ```
 
