@@ -1,0 +1,33 @@
+{
+  "name": "mini-crm-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon --watch src --exec node src/index.js",
+    "seed": "node scripts/seed.js",
+    "worker:ingest": "node src/workers/ingestConsumer.js",
+    "worker:campaign": "node src/workers/campaignConsumer.js",
+    "worker:delivery": "node src/workers/deliveryWorker.js",
+    "worker:receipt": "node src/workers/receiptConsumer.js",
+    "start:workers": "concurrently \"npm run worker:ingest\" \"npm run worker:campaign\" \"npm run worker:delivery\" \"npm run worker:receipt\"",
+    "vendor": "node src/vendor/simulator.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "axios": "^1.4.0",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "google-auth-library": "^9.15.1",
+    "ioredis": "^5.3.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.8.7",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1",
+    "nodemon": "^2.0.22"
+  }
+}
