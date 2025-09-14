@@ -1,14 +1,14 @@
 # Xeno SDE Internship: Mini CRM Platform
 
-Submitted by: **[Your Name]**
+Submitted by: **Nishant Chopde**
 
-[cite_start]This project is a fully functional Mini CRM platform built for the Xeno SDE Internship assignment. It enables users to segment customers, launch personalized marketing campaigns, and leverage AI for smarter decision-making.
+This project is a fully functional Mini CRM platform built for the Xeno SDE Internship assignment. It enables users to segment customers, launch personalized marketing campaigns, and leverage AI for smarter decision-making.
 
 ---
 
 ### 🚀 Live Demo & Video
 
-* [cite_start]**Deployed Application:** **[Link to your deployed app on Vercel, Render, etc.]** [cite: 82]
+* [cite_start]**Deployed Application:** **(https://nishantchopde.me/)](https://nishantchopde.me/)** [cite: 82]
 * [cite_start]**Demo Video (7 mins):** **[Link to your demo video on YouTube/Loom]** [cite: 83]
 
 ---
