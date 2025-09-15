@@ -87,11 +87,11 @@ Follow these steps to run the project on your local machine:
     ```bash
     # Run the backend server
     cd backend
-    npm start
+    npm run dev
 
     # Run the frontend development server
     cd ../frontend
-    npm start
+    npm run dev
     ```
 
 5.  The application should now be running at `http://localhost:5173`.
