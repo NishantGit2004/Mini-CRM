@@ -9,7 +9,7 @@ This project is a fully functional Mini CRM platform built for the Xeno SDE Inte
 ### 🚀 Live Demo & Video
 
 * **Deployed Application:** [https://nishantchopde.me](https://nishantchopde.me)  
-* **Demo Video (7 mins):** [Link to your demo video on YouTube/Loom]
+* **Demo Video (7 mins):** [[Link to your demo video on YouTube/Loom]](https://drive.google.com/file/d/10qQAIZKN6zADLn2BM-0rgzd8Nh45RGLC/view?usp=sharing)
 
 ---
 
