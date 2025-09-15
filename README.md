@@ -38,24 +38,24 @@ Here is a high-level overview of the system architecture:
 ![System Architecture](https://github.com/NishantGit2004/Mini-CRM/blob/main/frontend/public/System-Architecture.png?raw=true)
 
 **Flow of the system:**
-1.  **Frontend (React/Next.js)** interacts with the Backend API.
-2.  **Backend API (Node.js/Spring Boot)** handles authentication, validation, and core business logic.
+1.  **Frontend (React)** interacts with the Backend API.
+2.  **Backend API (Node.js)** handles authentication, validation, and core business logic.
 3.  For data ingestion, the API publishes jobs to a **Message Broker (Redis Streams)**.
-4.  A separate **Consumer Service** picks up these jobs and writes data to the **Database (MySQL/MongoDB)**.
+4.  A separate **Consumer Service** picks up these jobs and writes data to the **Database (MongoDB)**.
 5.  Campaign delivery calls a **Mock Vendor API**, which calls back to a **Delivery Receipt API** on our backend.
-6.  AI features are powered by making API calls to an **External AI Service (OpenAI/Google Vertex AI)**.
+6.  AI features are powered by making API calls to an **External AI Service (Google Vertex AI)**.
 
 ---
 
 ### 💻 Tech Stack & Tools
 
-* **Frontend:** React.js / Next.js  
-* **Backend:** Node.js (Express.js) / Java (Spring Boot)  
-* **Database:** MongoDB / MySQL  
+* **Frontend:** React.js
+* **Backend:** Node.js (Express.js)
+* **Database:** MongoDB
 * **Messaging Queue:** Redis Streams for asynchronous processing  
-* **AI Integration:** OpenAI API / Google Vertex AI for natural language processing and content generation  
+* **AI Integration:** Google Vertex AI for natural language processing and content generation  
 * **Authentication:** Google OAuth 2.0  
-* **Deployment:** Vercel (Frontend), Railway (Backend), Render (Services)  
+* **Deployment:** AWS EC2  
 
 ---
 
@@ -95,14 +95,6 @@ Follow these steps to run the project on your local machine:
     ```
 
 5.  The application should now be running at `http://localhost:3000`.
-
----
-
-### 📄 API Documentation
-
-The REST APIs for data ingestion are documented and can be tested via Postman or Swagger UI.
-
-* **[Link to your Postman Collection or Swagger UI page]**
 
 ---
 
