@@ -94,7 +94,7 @@ Follow these steps to run the project on your local machine:
     npm start
     ```
 
-5.  The application should now be running at `http://localhost:3000`.
+5.  The application should now be running at `http://localhost:5173`.
 
 ---
 
